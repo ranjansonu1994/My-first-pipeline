@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage('Checkout Source') {
       steps {
-        git 'https://gitlab.com/rks12341995dnr/my-first-pipeline.git'
+        git 'https://github.com/ranjansonu1994/My-first-pipeline.git'
       }
     }
     stage('Build image') {
