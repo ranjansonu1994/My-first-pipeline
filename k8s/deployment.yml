@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: my-app
+  name: my-app
+spec:
+  containers:
+  - image: rks12341995/ngnix:v1
+    name: my-app
+  restartPolicy: Always
