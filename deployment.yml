@@ -4,7 +4,7 @@ metadata:
   labels:
     run: my-app
   name: my-app
-  namwepace: jnks
+  namespace: jnks
 spec:
   containers:
   - image: rks12341995/ngnix:v1
@@ -19,6 +19,7 @@ metadata:
   labels:
     app: my-ngnix-app-service
   name: my-ngnix-app-service
+  namespace: jnks
 spec:
   ports:
   - name: my-ngnix-app-service
