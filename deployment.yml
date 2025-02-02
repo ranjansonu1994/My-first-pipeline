@@ -4,6 +4,7 @@ metadata:
   labels:
     run: my-app
   name: my-app
+  namwepace: jnks
 spec:
   containers:
   - image: rks12341995/ngnix:v1
